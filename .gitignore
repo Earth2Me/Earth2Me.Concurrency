@@ -1,0 +1,9 @@
+obj
+bin
+*.suo
+*.sdf
+Release
+Debug
+x86
+x64
+ia64
