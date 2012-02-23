@@ -50,14 +50,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delegation\OffsetAssociation.cs" />
+    <Compile Include="Delegation\PriorityOffset.cs" />
+    <Compile Include="Delegation\TaskCallback.cs" />
+    <Compile Include="Delegation\TaskContext.cs" />
+    <Compile Include="Delegation\TaskRepeat.cs" />
+    <Compile Include="Delegation\TaskResult.cs" />
+    <Compile Include="Delegation\TaskServer.cs" />
+    <Compile Include="Delegation\TaskWorker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Key.snk" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Delegation\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
